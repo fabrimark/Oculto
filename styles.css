@@ -3,15 +3,15 @@ body {
     font-family: Arial, sans-serif;
     background-color: black;
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
-    height: 100vh;
+    height:150vh;
     margin: 0;
 }
 
 .container {
     background: red;
-    padding: 40px;
+    padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     text-align: center;
@@ -57,5 +57,9 @@ button:hover {
     height: 100%;
     z-index: -100;
     background-size: cover;
+}
+
+.nome {
+    text-align: justify;
 }
 
